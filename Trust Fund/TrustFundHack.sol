@@ -1,5 +1,5 @@
 pragma solidity 0.4.24;
-
+import "./TrustFund.sol";
 
 contract TrustFundAttack {
 
@@ -25,4 +25,4 @@ contract TrustFundAttack {
     function withdraw() external {
         msg.sender.transfer(address(this).balance);
     }
-}
+}x

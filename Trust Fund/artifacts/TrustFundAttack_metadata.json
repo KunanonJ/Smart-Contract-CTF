@@ -1,0 +1,90 @@
+{
+	"compiler": {
+		"version": "0.4.24+commit.e67f0147"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "withdraw",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_victim",
+						"type": "address"
+					}
+				],
+				"name": "attack",
+				"outputs": [
+					{
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "fallback"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Trust Fund/TrustFundHack.sol": "TrustFundAttack"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Trust Fund/TrustFund.sol": {
+			"keccak256": "0xee8ae90c1a8ab2bb1a47c71df4d877462666b569708e058ae39a3c27333382e2",
+			"urls": [
+				"bzzr://4b2741d76f8b0e01b0f61b895d19cefdb49830335f3fe74c3f44de48bacf6b59"
+			]
+		},
+		"Trust Fund/TrustFundHack.sol": {
+			"keccak256": "0x7623fe9d33185f5fec9b4fedd23d46d00c51294afffd5b0458303743f7b92628",
+			"urls": [
+				"bzzr://160e93dbd8c35c3532dd45de504d4202123ee1ee8bbe4fb179da8152d1f11d8f"
+			]
+		}
+	},
+	"version": 1
+}
