@@ -1,0 +1,76 @@
+{
+	"compiler": {
+		"version": "0.4.24+commit.e67f0147"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_addr",
+						"type": "address"
+					}
+				],
+				"name": "reen",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "aimAddr",
+				"outputs": [
+					{
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "fallback"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Trust Fund/TrustFundHack.sol": "attack"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Trust Fund/TrustFund.sol": {
+			"keccak256": "0xee8ae90c1a8ab2bb1a47c71df4d877462666b569708e058ae39a3c27333382e2",
+			"urls": [
+				"bzzr://4b2741d76f8b0e01b0f61b895d19cefdb49830335f3fe74c3f44de48bacf6b59"
+			]
+		},
+		"Trust Fund/TrustFundHack.sol": {
+			"keccak256": "0xd14eb58620a265502e2e6176051e0e085cbfc40c9a2217baae0ef85416682c3d",
+			"urls": [
+				"bzzr://9e1a418ef4203171db6d30b7ef8d233f2c9c77aa7680e0e8fb4782284b2ee716"
+			]
+		}
+	},
+	"version": 1
+}

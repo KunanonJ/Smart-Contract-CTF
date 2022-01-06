@@ -1,0 +1,94 @@
+{
+	"compiler": {
+		"version": "0.4.24+commit.e67f0147"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "cost",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "gameFunds",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_heads",
+						"type": "bool"
+					}
+				],
+				"name": "play",
+				"outputs": [],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"name": "_ctfLauncher",
+						"type": "address"
+					},
+					{
+						"name": "_player",
+						"type": "address"
+					}
+				],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"HeadsOrTails/HeadsOrTails.sol": "HeadsOrTails"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"HeadsOrTails/HeadsOrTails.sol": {
+			"keccak256": "0xda3798f9f750153f0425a350278238e3f1ae7bddacd3e96956dc01e3fa1f49d7",
+			"urls": [
+				"bzzr://68bba0aeea1791a2cd4bedfae9d410db025b9296245c5933952bfbdb1020d95f"
+			]
+		}
+	},
+	"version": 1
+}
