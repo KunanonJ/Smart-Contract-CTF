@@ -7,31 +7,22 @@
 		"abi": [
 			{
 				"constant": false,
-				"inputs": [],
-				"name": "collectReward",
-				"outputs": [],
-				"payable": true,
-				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"constant": true,
-				"inputs": [],
-				"name": "raffleStopped",
-				"outputs": [
+				"inputs": [
 					{
-						"name": "",
-						"type": "bool"
+						"name": "_previousManager",
+						"type": "address"
 					}
 				],
+				"name": "removeFundManager",
+				"outputs": [],
 				"payable": false,
-				"stateMutability": "view",
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"constant": false,
 				"inputs": [],
-				"name": "closeRaffle",
+				"name": "withdraw",
 				"outputs": [],
 				"payable": false,
 				"stateMutability": "nonpayable",
@@ -40,11 +31,25 @@
 			{
 				"constant": true,
 				"inputs": [],
-				"name": "ticketsBought",
+				"name": "debugAuthorizer",
 				"outputs": [
 					{
 						"name": "",
-						"type": "uint256"
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "developer",
+				"outputs": [
+					{
+						"name": "",
+						"type": "address"
 					}
 				],
 				"payable": false,
@@ -55,23 +60,33 @@
 				"constant": false,
 				"inputs": [
 					{
-						"name": "_value",
-						"type": "uint256"
+						"name": "_newManager",
+						"type": "address"
 					}
 				],
-				"name": "skimALittleOffTheTop",
+				"name": "addFundManager",
 				"outputs": [],
 				"payable": false,
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
-				"constant": false,
-				"inputs": [],
-				"name": "buyTicket",
-				"outputs": [],
-				"payable": true,
-				"stateMutability": "payable",
+				"constant": true,
+				"inputs": [
+					{
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "fundManagerEnabled",
+				"outputs": [
+					{
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -104,7 +119,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Raffle/Raffle.sol": "Raffle"
+			"RainyDayFund/Rainy Day Fund.sol": "RainyDayFund"
 		},
 		"evmVersion": "byzantium",
 		"libraries": {},
@@ -115,10 +130,10 @@
 		"remappings": []
 	},
 	"sources": {
-		"Raffle/Raffle.sol": {
-			"keccak256": "0x40c76a1531d36f84962d72af7a2cf8bbbc05626f941670f5ab465eb04232e668",
+		"RainyDayFund/Rainy Day Fund.sol": {
+			"keccak256": "0x5383e32afc1dfa2d3910e1f48ed861d13824686360ca4dade85a5a8dec41d908",
 			"urls": [
-				"bzzr://68bc01e67f81b87fbe00b6dd81a7c7a1158904dff4ab4e7d32a71cc7eaae6046"
+				"bzzr://95d3319d9ceba205484106ab52e20bf261a31a54773b054b82650cfaab0f2fc7"
 			]
 		}
 	},

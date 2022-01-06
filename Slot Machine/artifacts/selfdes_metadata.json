@@ -1,0 +1,62 @@
+{
+	"compiler": {
+		"version": "0.4.24+commit.e67f0147"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_aim",
+						"type": "address"
+					}
+				],
+				"name": "destruct",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "fallback"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Slot Machine/SlotMachineHack.sol": "selfdes"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Slot Machine/SlotMachine.sol": {
+			"keccak256": "0x65e2c8ca596d8182a2946d315878570bf061c3696627f75539d12cc1ca1c6021",
+			"urls": [
+				"bzzr://b07b31e7f6ee1323563612b2820f3b397ae7e15d6d2fa3652866e2b20df8a5ca"
+			]
+		},
+		"Slot Machine/SlotMachineHack.sol": {
+			"keccak256": "0x8056bdb633419e4b43860a14aa6ce5361d99ebff76125dbc5fdd40417917d13f",
+			"urls": [
+				"bzzr://05b4b3e2a1b7264797e893de2e629b1a586c3535e087a5daaf050fa4bc3fea53"
+			]
+		}
+	},
+	"version": 1
+}

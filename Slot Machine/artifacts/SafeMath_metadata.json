@@ -15,7 +15,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"HeadsOrTails/HeadsOrTails.sol": "SafeMath"
+			"Slot Machine/SlotMachine.sol": "SafeMath"
 		},
 		"evmVersion": "byzantium",
 		"libraries": {},
@@ -26,10 +26,10 @@
 		"remappings": []
 	},
 	"sources": {
-		"HeadsOrTails/HeadsOrTails.sol": {
-			"keccak256": "0xda3798f9f750153f0425a350278238e3f1ae7bddacd3e96956dc01e3fa1f49d7",
+		"Slot Machine/SlotMachine.sol": {
+			"keccak256": "0x65e2c8ca596d8182a2946d315878570bf061c3696627f75539d12cc1ca1c6021",
 			"urls": [
-				"bzzr://68bba0aeea1791a2cd4bedfae9d410db025b9296245c5933952bfbdb1020d95f"
+				"bzzr://b07b31e7f6ee1323563612b2820f3b397ae7e15d6d2fa3652866e2b20df8a5ca"
 			]
 		}
 	},

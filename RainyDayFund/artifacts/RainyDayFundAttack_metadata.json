@@ -6,52 +6,60 @@
 	"output": {
 		"abi": [
 			{
-				"constant": false,
+				"constant": true,
+				"inputs": [
+					{
+						"name": "_baseAddr",
+						"type": "address"
+					},
+					{
+						"name": "nonce",
+						"type": "uint8"
+					}
+				],
+				"name": "newAddressForAddrAndNonce",
+				"outputs": [
+					{
+						"name": "newAddress",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
 				"inputs": [],
-				"name": "exploit",
-				"outputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_victim",
+						"type": "address"
+					}
+				],
+				"name": "attack",
+				"outputs": [
+					{
+						"name": "",
+						"type": "bool"
+					}
+				],
 				"payable": true,
 				"stateMutability": "payable",
 				"type": "function"
-			},
-			{
-				"constant": true,
-				"inputs": [],
-				"name": "owner",
-				"outputs": [
-					{
-						"name": "",
-						"type": "address"
-					}
-				],
-				"payable": false,
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"constant": true,
-				"inputs": [],
-				"name": "victim_addr",
-				"outputs": [
-					{
-						"name": "",
-						"type": "address"
-					}
-				],
-				"payable": false,
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"name": "addr",
-						"type": "address"
-					}
-				],
-				"payable": false,
-				"stateMutability": "nonpayable",
-				"type": "constructor"
 			},
 			{
 				"payable": true,
@@ -68,7 +76,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"HeadsOrTails/HeadsOrTailsHack.sol": "HeadsOrTailsExploit"
+			"RainyDayFund/RainyDayFundHack.sol": "RainyDayFundAttack"
 		},
 		"evmVersion": "byzantium",
 		"libraries": {},
@@ -79,16 +87,10 @@
 		"remappings": []
 	},
 	"sources": {
-		"HeadsOrTails/HeadsOrTails.sol": {
-			"keccak256": "0xda3798f9f750153f0425a350278238e3f1ae7bddacd3e96956dc01e3fa1f49d7",
+		"RainyDayFund/RainyDayFundHack.sol": {
+			"keccak256": "0x5e62b552113d003741e2f9428912886ef5751d8acf5ab41c50fbc3596bf1a524",
 			"urls": [
-				"bzzr://68bba0aeea1791a2cd4bedfae9d410db025b9296245c5933952bfbdb1020d95f"
-			]
-		},
-		"HeadsOrTails/HeadsOrTailsHack.sol": {
-			"keccak256": "0x6f8c712235b1439a91803ab96dac704fdcd17b89546e51bbc426ef10a782ae45",
-			"urls": [
-				"bzzr://29b4e27d19e72d0beba27bec0c36d267b1f272f182bfc0351fd9db73fe267e31"
+				"bzzr://7bde5011a6395eaade0866eaa3f469a0f00e09cd58612506ab6d1adab9f2f4a1"
 			]
 		}
 	},

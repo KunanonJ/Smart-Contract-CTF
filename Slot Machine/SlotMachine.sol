@@ -1,5 +1,7 @@
 pragma solidity 0.4.24;
 
+
+
 /**
  * @title SafeMath
  * @dev Math operations with safety checks that revert on error
@@ -65,36 +67,23 @@ library SafeMath {
 }
 
 
-contract Lottery{
+contract SlotMachine{
 
     using SafeMath for uint256;
 
-    uint256 public totalPot;
+    uint256 public winner;
 
     constructor(address _ctfLauncher, address _player) public payable
         
     {
-        totalPot = totalPot.add(msg.value);
+        winner = 5 ether;
     }
     
     function() external payable{
-        totalPot = totalPot.add(msg.value);
-    }
-
-    function play(uint256 _seed) external payable{
-        require(msg.value >= 1 finney, "Insufficient Transaction Value");
-        totalPot = totalPot.add(msg.value);
-        bytes32 entropy = blockhash(block.number);
-        bytes32 entropy2 = keccak256(abi.encodePacked(msg.sender));
-        bytes32 target = keccak256(abi.encodePacked(entropy^entropy2));
-        bytes32 guess = keccak256(abi.encodePacked(_seed));
-        if(guess==target){
-            //winner
-            uint256 payout = totalPot;
-            totalPot = 0;
-            msg.sender.transfer(payout);
+        require(msg.value == 1 szabo, "Incorrect Transaction Value");
+        if (address(this).balance >= winner){
+            msg.sender.transfer(address(this).balance);
         }
-    }    
-
+    }
 
 }

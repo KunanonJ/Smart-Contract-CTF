@@ -1,0 +1,57 @@
+{
+	"compiler": {
+		"version": "0.4.24+commit.e67f0147"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "debugMode",
+				"outputs": [
+					{
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"RainyDayFund/Rainy Day Fund.sol": "DebugAuthorizer"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"RainyDayFund/Rainy Day Fund.sol": {
+			"keccak256": "0x5383e32afc1dfa2d3910e1f48ed861d13824686360ca4dade85a5a8dec41d908",
+			"urls": [
+				"bzzr://95d3319d9ceba205484106ab52e20bf261a31a54773b054b82650cfaab0f2fc7"
+			]
+		}
+	},
+	"version": 1
+}
