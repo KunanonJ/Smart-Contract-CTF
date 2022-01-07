@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.4.24+commit.e67f0147"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "totalPot",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_seed",
+						"type": "uint256"
+					}
+				],
+				"name": "play",
+				"outputs": [],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"name": "_ctfLauncher",
+						"type": "address"
+					},
+					{
+						"name": "_player",
+						"type": "address"
+					}
+				],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "fallback"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Lottery/Lottery.sol": "Lottery"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Lottery/Lottery.sol": {
+			"keccak256": "0x61fadb539fcc91a41f30d7c1858a6fc91e95c68d57050787d3fc44a9ae227e69",
+			"urls": [
+				"bzzr://a378c3d00bd38ba7f822a771801fcae997aebe22a4af84139f1062ece2c0efc4"
+			]
+		}
+	},
+	"version": 1
+}

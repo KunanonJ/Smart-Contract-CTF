@@ -76,7 +76,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"RainyDayFund/RainyDayFundHack.sol": "RainyDayFundAttack"
+			"RainyDayFund/RainyDayFundAttack.sol": "RainyDayFundAttack"
 		},
 		"evmVersion": "byzantium",
 		"libraries": {},
@@ -87,10 +87,16 @@
 		"remappings": []
 	},
 	"sources": {
-		"RainyDayFund/RainyDayFundHack.sol": {
-			"keccak256": "0x5e62b552113d003741e2f9428912886ef5751d8acf5ab41c50fbc3596bf1a524",
+		"RainyDayFund/RainyDayFund.sol": {
+			"keccak256": "0x5383e32afc1dfa2d3910e1f48ed861d13824686360ca4dade85a5a8dec41d908",
 			"urls": [
-				"bzzr://7bde5011a6395eaade0866eaa3f469a0f00e09cd58612506ab6d1adab9f2f4a1"
+				"bzzr://95d3319d9ceba205484106ab52e20bf261a31a54773b054b82650cfaab0f2fc7"
+			]
+		},
+		"RainyDayFund/RainyDayFundAttack.sol": {
+			"keccak256": "0xee84451a7c7fa87bbc587cb50f5ec8b3517983aa6ab254c432b0e983c1aabfa7",
+			"urls": [
+				"bzzr://ecddf2939f991c63bd4bd6272434770cb772dd09ba5163f4a0d87b47479e1132"
 			]
 		}
 	},
