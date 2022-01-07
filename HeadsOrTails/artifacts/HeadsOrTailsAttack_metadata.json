@@ -43,8 +43,8 @@
 						"type": "bool"
 					}
 				],
-				"payable": false,
-				"stateMutability": "nonpayable",
+				"payable": true,
+				"stateMutability": "payable",
 				"type": "function"
 			},
 			{
@@ -62,7 +62,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Trust Fund/TrustFundAttack.sol": "TrustFundAttack"
+			"HeadsOrTails/HeadsOrTailsAttack.sol": "HeadsOrTailsAttack"
 		},
 		"evmVersion": "byzantium",
 		"libraries": {},
@@ -73,16 +73,16 @@
 		"remappings": []
 	},
 	"sources": {
-		"Trust Fund/TrustFund.sol": {
-			"keccak256": "0xee8ae90c1a8ab2bb1a47c71df4d877462666b569708e058ae39a3c27333382e2",
+		"HeadsOrTails/HeadsOrTails.sol": {
+			"keccak256": "0xda3798f9f750153f0425a350278238e3f1ae7bddacd3e96956dc01e3fa1f49d7",
 			"urls": [
-				"bzzr://4b2741d76f8b0e01b0f61b895d19cefdb49830335f3fe74c3f44de48bacf6b59"
+				"bzzr://68bba0aeea1791a2cd4bedfae9d410db025b9296245c5933952bfbdb1020d95f"
 			]
 		},
-		"Trust Fund/TrustFundAttack.sol": {
-			"keccak256": "0xaf1b303b1d520b2f41a4314b499fdc09d98a62aac966d3c3f9df95ec36425baf",
+		"HeadsOrTails/HeadsOrTailsAttack.sol": {
+			"keccak256": "0x869d3390361af51b0018ec66d0778b55704a46c662f73decaddfe7003f55a371",
 			"urls": [
-				"bzzr://73e9a373f03d5d1c0483c533f1b73f75c59e3ccc101e1a7a68a4bf1ce08ea292"
+				"bzzr://b7da3d83365b5e165663d9adfe28139f716a6fd34e2a9515bcf11d9cece1fb9a"
 			]
 		}
 	},
