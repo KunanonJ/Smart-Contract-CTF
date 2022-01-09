@@ -7,22 +7,18 @@
 		"abi": [
 			{
 				"constant": false,
-				"inputs": [
-					{
-						"name": "_addr",
-						"type": "address"
-					}
-				],
-				"name": "encode",
-				"outputs": [
-					{
-						"name": "",
-						"type": "bytes32"
-					}
-				],
-				"payable": false,
-				"stateMutability": "nonpayable",
+				"inputs": [],
+				"name": "attack",
+				"outputs": [],
+				"payable": true,
+				"stateMutability": "payable",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "constructor"
 			},
 			{
 				"payable": true,
@@ -39,7 +35,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Lottery/LotteryAttack.sol": "attack"
+			"Lottery/LotteryAttack.sol": "test"
 		},
 		"evmVersion": "byzantium",
 		"libraries": {},
@@ -51,15 +47,15 @@
 	},
 	"sources": {
 		"Lottery/Lottery.sol": {
-			"keccak256": "0x61fadb539fcc91a41f30d7c1858a6fc91e95c68d57050787d3fc44a9ae227e69",
+			"keccak256": "0xccfbc950756fbcd967c1c504acfe1886b4f1685e43d064d14e357b4d92410a4a",
 			"urls": [
-				"bzzr://a378c3d00bd38ba7f822a771801fcae997aebe22a4af84139f1062ece2c0efc4"
+				"bzzr://2148decfce6049de5b969d86fd2495ee3305919921e025198b91b679ab0f7130"
 			]
 		},
 		"Lottery/LotteryAttack.sol": {
-			"keccak256": "0x4faf4981acbe728d3ac2bfd50e96cc430596a692bedf8cb4cb5ff4714d355ce8",
+			"keccak256": "0x14a0e703afcf34099f30a0cf7ab96652ac09fc19ee513c744a1aad982c88f05e",
 			"urls": [
-				"bzzr://64d475f89d5725dc68c52cc91f3f62c2ac1d9d541d49a980054d4e1fc38b4985"
+				"bzzr://710ad63a280b5907a73179edd8597f4aa5fbb13e712318bcea0fd7a89e9ca4bc"
 			]
 		}
 	},
