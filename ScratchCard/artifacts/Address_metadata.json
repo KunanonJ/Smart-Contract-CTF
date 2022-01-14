@@ -1,0 +1,36 @@
+{
+	"compiler": {
+		"version": "0.4.24+commit.e67f0147"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ScratchCard/Scratchcard.sol": "Address"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ScratchCard/Scratchcard.sol": {
+			"keccak256": "0x801de249c19fb0184ee5bcfe2db50a2583427e713e2ad666f93b719f5925575f",
+			"urls": [
+				"bzzr://9ce5a5bd75b86052533faf3a2174779807d6a63550bfd3be4f549c472963eeff"
+			]
+		}
+	},
+	"version": 1
+}
