@@ -1,0 +1,63 @@
+{
+	"compiler": {
+		"version": "0.4.24+commit.e67f0147"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "withdraw",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "fallback"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ScratchCard/ScratchcardAttack.sol": "Attack2"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ScratchCard/Scratchcard.sol": {
+			"keccak256": "0x801de249c19fb0184ee5bcfe2db50a2583427e713e2ad666f93b719f5925575f",
+			"urls": [
+				"bzzr://9ce5a5bd75b86052533faf3a2174779807d6a63550bfd3be4f549c472963eeff"
+			]
+		},
+		"ScratchCard/ScratchcardAttack.sol": {
+			"keccak256": "0x0664eb39111038aa50092f1e6a75d3b8eadcc4f1532352851492d3f5c3b29acc",
+			"urls": [
+				"bzzr://475a15a979ce5675088efec604ac99c5ac7eee73ed792676d51408adeb8ba8c5"
+			]
+		}
+	},
+	"version": 1
+}

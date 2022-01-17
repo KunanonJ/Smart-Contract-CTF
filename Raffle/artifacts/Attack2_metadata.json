@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.4.24+commit.e67f0147"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "withdraw",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_aim",
+						"type": "address"
+					}
+				],
+				"name": "collectReward",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_aim",
+						"type": "address"
+					}
+				],
+				"name": "buyTicket",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "fallback"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Raffle/RaffleAttack2.sol": "Attack2"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Raffle/Raffle.sol": {
+			"keccak256": "0x40c76a1531d36f84962d72af7a2cf8bbbc05626f941670f5ab465eb04232e668",
+			"urls": [
+				"bzzr://68bc01e67f81b87fbe00b6dd81a7c7a1158904dff4ab4e7d32a71cc7eaae6046"
+			]
+		},
+		"Raffle/RaffleAttack2.sol": {
+			"keccak256": "0xe7a9aec1e11d3f5e283f08b8423001a96c3265cc69272013e6ce4b523d0351d9",
+			"urls": [
+				"bzzr://e55fa967d297a2648e2fd1b48becadfda1c07ade135d04d3cea935a0287d60e1"
+			]
+		}
+	},
+	"version": 1
+}
