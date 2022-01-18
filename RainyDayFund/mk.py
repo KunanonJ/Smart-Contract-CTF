@@ -7,9 +7,10 @@ def mk_contract_address(sender, nonce):
         address_bytes = h[12:]
         return to_checksum_address(address_bytes)
 
-for x in range(453,454):
-        addr = mk_contract_address("0x1F5e01FA5185F3F885401F219064aB2BF7CDFe6A",x)
+for x in range(1,2):
+        addr = mk_contract_address("0xc0FafEb583F141ac81ADBadd186088DdA9FCb759",x)
         print(f"nonce: {x} contract: {addr}")
-
-#1st level contract is 0x66dAA786c6bE11b19B4A3F74f8f20a5630369fd1
-#2nd DebugAuthorizer contract is 0x1F5e01FA5185F3F885401F219064aB2BF7CDFe6A
+#from 0xa3780318e697c03bd89397cda5521a158439991b
+#Launcher Address is 0xeD0D5160c642492b3B482e006F67679F5b6223A2
+#RainyDayFund Nouce 459 0xc0FafEb583F141ac81ADBadd186088DdA9FCb759
+#DebugAuthorizer Nouce 1 0x1a9Da89b81154808Ecd3BfD0A6F4fc1c85101c71

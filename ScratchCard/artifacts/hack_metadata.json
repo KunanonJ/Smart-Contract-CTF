@@ -6,13 +6,22 @@
 	"output": {
 		"abi": [
 			{
+				"constant": false,
+				"inputs": [],
+				"name": "chuang",
+				"outputs": [],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
 				"constant": true,
 				"inputs": [],
-				"name": "debugMode",
+				"name": "nice",
 				"outputs": [
 					{
 						"name": "",
-						"type": "bool"
+						"type": "address"
 					}
 				],
 				"payable": false,
@@ -35,7 +44,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"RainyDayFund/Rainy Day Fund.sol": "DebugAuthorizer"
+			"ScratchCard/ScratchcardAttack.sol": "hack"
 		},
 		"evmVersion": "byzantium",
 		"libraries": {},
@@ -46,10 +55,16 @@
 		"remappings": []
 	},
 	"sources": {
-		"RainyDayFund/Rainy Day Fund.sol": {
-			"keccak256": "0x5383e32afc1dfa2d3910e1f48ed861d13824686360ca4dade85a5a8dec41d908",
+		"ScratchCard/Scratchcard.sol": {
+			"keccak256": "0x0a12e58c47da8180d093607f672f51cb3fa6a9b6a87f5228e05a3d59b1652649",
 			"urls": [
-				"bzzr://95d3319d9ceba205484106ab52e20bf261a31a54773b054b82650cfaab0f2fc7"
+				"bzzr://da2c060cd60c507bd5a4e8387c984bae1ea683961831ac28be5aad9f52bee770"
+			]
+		},
+		"ScratchCard/ScratchcardAttack.sol": {
+			"keccak256": "0x1f2d5a35b21ad591973edfad85625ac0d6bb45142d9007df61ae074b17b4ed82",
+			"urls": [
+				"bzzr://0732070e69ccb5c5b8da3a8a4720f7e779933c95fc29632f93362ceb3408cf47"
 			]
 		}
 	},

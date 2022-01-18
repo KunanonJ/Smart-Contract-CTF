@@ -8,10 +8,10 @@
 			{
 				"constant": false,
 				"inputs": [],
-				"name": "withdraw",
+				"name": "kill",
 				"outputs": [],
-				"payable": false,
-				"stateMutability": "nonpayable",
+				"payable": true,
+				"stateMutability": "payable",
 				"type": "function"
 			},
 			{
@@ -35,7 +35,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"ScratchCard/ScratchcardAttack.sol": "Attack2"
+			"ScratchCard/ScratchcardAttack.sol": "Attack"
 		},
 		"evmVersion": "byzantium",
 		"libraries": {},
@@ -47,15 +47,15 @@
 	},
 	"sources": {
 		"ScratchCard/Scratchcard.sol": {
-			"keccak256": "0x801de249c19fb0184ee5bcfe2db50a2583427e713e2ad666f93b719f5925575f",
+			"keccak256": "0x0a12e58c47da8180d093607f672f51cb3fa6a9b6a87f5228e05a3d59b1652649",
 			"urls": [
-				"bzzr://9ce5a5bd75b86052533faf3a2174779807d6a63550bfd3be4f549c472963eeff"
+				"bzzr://da2c060cd60c507bd5a4e8387c984bae1ea683961831ac28be5aad9f52bee770"
 			]
 		},
 		"ScratchCard/ScratchcardAttack.sol": {
-			"keccak256": "0x0664eb39111038aa50092f1e6a75d3b8eadcc4f1532352851492d3f5c3b29acc",
+			"keccak256": "0x24ab69034119ca72494d6b0cb2ede90085ca4d06ad9ed6786c0f460822ef347b",
 			"urls": [
-				"bzzr://475a15a979ce5675088efec604ac99c5ac7eee73ed792676d51408adeb8ba8c5"
+				"bzzr://e2f36fd3f6c8fecdcd9f3b5a13a5537324b266506fcdfeb8507b7dcbd994e3e7"
 			]
 		}
 	},
