@@ -8,24 +8,10 @@
 			{
 				"constant": false,
 				"inputs": [],
-				"name": "chuang",
+				"name": "kill",
 				"outputs": [],
 				"payable": true,
 				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"constant": true,
-				"inputs": [],
-				"name": "nice",
-				"outputs": [
-					{
-						"name": "",
-						"type": "address"
-					}
-				],
-				"payable": false,
-				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -33,6 +19,11 @@
 				"payable": true,
 				"stateMutability": "payable",
 				"type": "constructor"
+			},
+			{
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "fallback"
 			}
 		],
 		"devdoc": {
@@ -44,7 +35,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"ScratchCard/ScratchcardAttack.sol": "hack"
+			"ScratchCard/ScratchcardAttack.sol": "Attacker"
 		},
 		"evmVersion": "byzantium",
 		"libraries": {},
@@ -62,9 +53,9 @@
 			]
 		},
 		"ScratchCard/ScratchcardAttack.sol": {
-			"keccak256": "0x92261c3df0aa8c3cffacc875f3e42f28b10d25290123fd96a2049e094791bff5",
+			"keccak256": "0xccb486b609f5115592879a4eb1b2d1bd9f2eefece9c6cc87df24ff48e28504cb",
 			"urls": [
-				"bzzr://07c4dc338129771d1f6eed9ab85121d253e1a3fa05c8a0f8f5c6ef5cf0da4c48"
+				"bzzr://edf66b3fe85ecd3f13dfe0f17dfb44c0fa73e4e82833230f8a5094610b056948"
 			]
 		}
 	},

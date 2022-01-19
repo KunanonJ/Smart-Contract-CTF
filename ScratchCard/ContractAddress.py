@@ -1,13 +1,20 @@
-import rlp
 from ethereum import utils
-address = 0x43065950E0185BD74361D8580Daaa5BFF806aaDE
-nonce = 222
-rlp_res = rlp.encode([address,nonce])
-# print(rlp_res)
-sha3_res = utils.mk_contract_address(address,nonce)
-# print(sha3_res)
-sha3_res_de = utils.decode_addr(sha3_res)
-print("contract_address: 0x" + sha3_res_de)
 
-# Nonce 221 0xa937f3198a70f91ee3c099918c8b252e5e8d1b0b
-# Nonce 222 0x4506ef9bcf9276672b3670f42d12061a983620d7
+def getSon(Father,nonce):
+    sha3_res = utils.mk_contract_address(Father,nonce)
+    sha3_res_de = utils.decode_addr(sha3_res)
+    #print('[+]%s,contract_address: %s'%(nonce,sha3_res_de))
+    return(sha3_res_de)
+
+def FindNonce(Father,Son):
+    MaxNonce = 100000
+    for nonce in range(MaxNonce):
+        res = getSon(Father,nonce)
+        if int(res,16)==Son:
+            print('[+]the correct nonceis :%s'%(nonce))
+            return(int(nonce))
+
+developer= 0xdBc1ce93E1237baf2585CA87909B30A87A2E77B6
+rainfund = 0xb3dedbe46f78032b9d7032ab5d7cf6c84e818c05
+nonce = FindNonce(developer,rainfund)
+print(nonce,getSon(developer,nonce),'start to predict',getSon(developer,nonce+1),getSon(developer,nonce+2))

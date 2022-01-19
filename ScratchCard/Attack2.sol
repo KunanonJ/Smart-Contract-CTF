@@ -1,6 +1,7 @@
 pragma solidity 0.4.24;
-
-import "./ScratchcardAttack.sol";
+//Challenge Address 0x505d51adcccb62cd33579c1ea7b94a717f7ae06e
+//Attacker Address 0x43065950E0185BD74361D8580Daaa5BFF806aaDE
+import "./Attack.sol";
 
 contract Attack{
     address owner;
