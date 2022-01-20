@@ -15,6 +15,6 @@ contract Attacker{
     function () public payable{}
     
     function kill() public payable {
-       selfdestruct((0x43065950e0185bd74361d8580daaa5bff806aade)); 
+       selfdestruct(0x43065950e0185bd74361d8580daaa5bff806aade); 
     }
 }
