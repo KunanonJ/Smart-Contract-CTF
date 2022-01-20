@@ -7,10 +7,10 @@ def mk_contract_address(sender, nonce):
     address_bytes = h[12:]
     return to_checksum_address(address_bytes)
 
-for x in range(364,366):
+for x in range(367,369):
     addr = mk_contract_address("0x43065950E0185BD74361D8580Daaa5BFF806aaDE",x)
     print(f"nonce: {x} contract: {addr}")
 
 # Attacker Address 0x43065950E0185BD74361D8580Daaa5BFF806aaDE
-# Nonce contract 364 0x3981964D56fFa1D868da89b6B911E946c1408a98
-# Nonce contract 365 0x350eb7D0E28dD0105ed5c56E215726102d12D1d6
+# Nonce contract 367 0xb763d3420C44325026bB4E03dD380F46523E41fa
+# Nonce contract 368 0xD92EE91f335a29746EEB07ef689c7bfa114F6A1b
