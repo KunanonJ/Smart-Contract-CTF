@@ -4,7 +4,7 @@ import "./Scratchcard.sol";
 
 contract Attack2{
     address owner;
-    Scratchcard game = Scratchcard(0x8b8450970A7C25D7517100EEfF0Cb23357c50c86);
+    Scratchcard game  = Scratchcard(0x505d51adcccb62cd33579c1ea7b94a717f7ae06e);
 
     constructor() public payable {
         owner = tx.origin;
