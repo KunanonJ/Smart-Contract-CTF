@@ -14,7 +14,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"ScratchCard/ScratchcardAttack.sol": "Address"
+			"ScratchCard/Scratchcard.sol": "Address"
 		},
 		"evmVersion": "byzantium",
 		"libraries": {},
@@ -25,10 +25,10 @@
 		"remappings": []
 	},
 	"sources": {
-		"ScratchCard/ScratchcardAttack.sol": {
-			"keccak256": "0x34887852f8b4131a53900ee3d5a98b61587f1c40fd6a131ec675ea286390c588",
+		"ScratchCard/Scratchcard.sol": {
+			"keccak256": "0x0a12e58c47da8180d093607f672f51cb3fa6a9b6a87f5228e05a3d59b1652649",
 			"urls": [
-				"bzzr://05645d2930bf2ba6ea83ecd84fcd6b368bbee4830a644cfcc03ba39150b7d6f5"
+				"bzzr://da2c060cd60c507bd5a4e8387c984bae1ea683961831ac28be5aad9f52bee770"
 			]
 		}
 	},
